@@ -16,6 +16,7 @@ class Player {
         this.voiceRange = 4;
     }
 
+    // Broadcast message to nearby agents
     say(msg) {
         this.conversation.push({ role: "user", content: msg }); // Log
 

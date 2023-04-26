@@ -27,7 +27,7 @@ function draw() {
     // Clear and move cam
     ctx.save();
     ctx.translate(cam.x, cam.y);
-    ctx.clearRect(-64, -64, 128, 128);
+    ctx.clearRect(-cam.x - 64, -cam.y - 64, 128, 128);
 
     // Render scene
     inst.forEach(i => {
