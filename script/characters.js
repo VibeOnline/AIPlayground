@@ -3,7 +3,7 @@ class NPC extends AI {
     #mov_x = 0;
     #mov_y = 0;
     #request = new XMLHttpRequest();
-    #API_KEY = "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";
+    #API_KEY = "OPENAI_API_KEY";
 
     constructor() {
         super();
