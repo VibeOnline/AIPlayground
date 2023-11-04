@@ -41,7 +41,7 @@ class AI {
 }
 
 class Tapastry {
-    #API_KEY = "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";
+    #API_KEY = "OPENAI_API_KEY";
 
     constructor(ref) {
         this.x = 0;
