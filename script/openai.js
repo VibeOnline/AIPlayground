@@ -1,6 +1,6 @@
 class AI {
     // Private attributes
-    #API_KEY = "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";
+    #API_KEY = "OPENAI_API_KEY";
     #request = new XMLHttpRequest();
 
     constructor() {
